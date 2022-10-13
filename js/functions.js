@@ -1,16 +1,13 @@
 var miRuleta = new Winwheel({
-  numSegments: 14,
+  numSegments: 11,
   outerRadius: 200,
   segments: [
-    { fillStyle: "#EBECEE", text: "Falta" },
-    { fillStyle: "#C01A34", text: "Lentes GRATIS" },
-    { fillStyle: "#EBECEE", text: "Falta" },
     { fillStyle: "#304ffe", text: "Solución" },
     { fillStyle: "#FD1314", text: "Collar" },
+    { fillStyle: "#EBECEE", text: "Lentes GRATIS" },
     { fillStyle: "#ffeb3b", text: "Estuche" },
     { fillStyle: "#304ffe", text: "Fleje" },
     { fillStyle: "#FD1314", text: "2x1" },
-    { fillStyle: "#EBECEE", text: "Falta" },
     { fillStyle: "#304ffe", text: "Solución" },
     { fillStyle: "#FD1314", text: "Collar" },
     { fillStyle: "#ffeb3b", text: "Estuche" },
