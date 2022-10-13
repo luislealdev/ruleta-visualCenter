@@ -27,8 +27,7 @@ dibujarIndicador();
 async function mensaje() {
   var SegmentoSeleccionado = miRuleta.getIndicatedSegment();
   console.log(SegmentoSeleccionado.text);
-
-  if (SegmentoSeleccionado.text != "Falta")
+  
     await Swal.fire({
       title: "¡FELICIDADES!",
       text: SegmentoSeleccionado.text,
@@ -41,14 +40,6 @@ async function mensaje() {
       left top 
       no-repeat
     `,
-    });
-  else
-    await Swal.fire({
-      title: "UPS!",
-      text: "Suerte para la próxima!",
-      icon: "warning",
-      iconColor: "red",
-      confirmButtonText: "Cool",
     });
 
   miRuleta.stopAnimation(false);
